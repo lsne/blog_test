@@ -2,8 +2,8 @@ import { DefaultTheme, defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   base: "/blog_test/",
+  head: [['link', { rel: 'icon', href: '/blog_test/favicon.ico' }]],
   title: "老刘笔记",
   description: "老刘同学的日常笔记",
   markdown: {
