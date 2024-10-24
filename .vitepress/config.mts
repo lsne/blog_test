@@ -10,6 +10,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    base: "/blog_test/"
     logo: '/vitepress-logo-mini.svg',
     footer: {
       message: '基于 MIT 许可发布',
