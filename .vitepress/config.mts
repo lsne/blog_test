@@ -2,6 +2,7 @@ import { DefaultTheme, defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/blog_test/",
   title: "老刘笔记",
   description: "老刘同学的日常笔记",
   markdown: {
@@ -10,7 +11,6 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    base: "/blog_test/"
     logo: '/vitepress-logo-mini.svg',
     footer: {
       message: '基于 MIT 许可发布',
